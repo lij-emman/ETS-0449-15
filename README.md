@@ -3,11 +3,15 @@
      Python provides many built-in string methods to manipulate and analyze text. 
      In this project we'll see in detail on what the major string methods are, what they do and what the major syntax is for most of these.
      
-     According to chatgpt there are about 6 major uses of these string methods. These are: Case Manipulation Methods, Searching & Checking Methods,  
-     Modifying & Replacing Methods,  Formatting Methods, Splitting & Joining Methods and finally, Checking Character Types. Here we'll try to see some of the string methods mentioned below with their corresponding examples. 
+     According to chatgpt there are about 6 major uses of these string methods.  
+     These are: Case Manipulation Methods, Searching & Checking Methods, Modifying & Replacing Methods,  
+     Formatting Methods, Splitting & Joining Methods and finally, Checking Character Types.  
+     
+     Here we'll try to see some of the string methods mentioned below with their corresponding examples. 
 
-           str.lower() ; str.upper() ; str.title() ; str.capitalize() ; str.swapcase() ; str.find() ; str.index() ; str.startswith() ; str.endswith() ; str.count() ; 
-           str.replace() ; str.strip() ; str.lstrip() ; str.rstrip() ; str.split() ; str.join() ; str.isalpha() ; str.isdigit() ; str.isalnum() ; str.isspace() ; 
+           str.lower() ; str.upper() ; str.title() ; str.capitalize() ; str.swapcase() ; str.find() ; str.index() ;  
+           str.startswith() ; str.endswith() ; str.count() ; str.replace() ; str.strip() ; str.lstrip() ;  
+           str.rstrip() ; str.split() ; str.join() ; str.isalpha() ; str.isdigit() ; str.isalnum() ; str.isspace() ;  
            str.format() ; f-strings ; len()= ; str.encode() ; str.islower() ; str.isupper()
 
 
@@ -98,11 +102,11 @@ Is a method used for checking if a substring exists in a string. It is also used
 It returns the **lowest index** of substring or else returns **-1** if the string is not found.
 
 
-## str.index()
-
-The main difference between str.find() and str.index() is that str.index returns **ValueError** if the string does nto exist.
-
-
 ## str.count()
 
 This returns the **number of times** a string is mentioned or appears.
+
+
+## str.index()
+
+The main difference between str.find() and str.index() is that str.index returns **ValueError** if the string does nto exist.
