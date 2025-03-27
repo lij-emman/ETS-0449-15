@@ -86,3 +86,23 @@ It is used to avoid unnecessary processing by quickly checking the beginning of 
 ## str.endswith
 
 This on the other hand checks if a string ends in a specified suffix. Just as str.startswith it returns a boolean value.
+
+
+
+
+# STR.FIND() ; STR.INDEX() AND STR.COUNT()
+
+## str.find()
+
+Is a method used for checking if a substring exists in a string. It is also used in finding the position of a substring to extract information.  
+It returns the **lowest index** of substring or else returns **-1** if the string is not found.
+
+
+## str.index()
+
+The main difference between str.find() and str.index() is that str.index returns **ValueError** if the string does nto exist.
+
+
+## str.count()
+
+This returns the **number of times** a string is mentioned or appears.
