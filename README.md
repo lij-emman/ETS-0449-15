@@ -6,7 +6,7 @@
      According to chatgpt there are about 6 major uses of these string methods.  
      These are: Case Manipulation Methods, Searching & Checking Methods, Modifying & Replacing Methods,  
      Formatting Methods, Splitting & Joining Methods and finally, Checking Character Types.  
-     
+
      Here we'll try to see some of the string methods mentioned below with their corresponding examples. 
 
            str.lower() ; str.upper() ; str.title() ; str.capitalize() ; str.swapcase() ; str.find() ; str.index() ;  
@@ -23,10 +23,10 @@ The basic syntax for many of the above methods is   **result = string.method(opt
 However, you can add starting and ending index numbers for several types of the methods mentioned. 
 
 ***Example:***  Running this code can give us a clear definition of what the parameters do.  
-     text = "Hello World"  
-     print(text.lower())  # "hello world"  **#output will be  "hello world"**  
-     print(text.find("o", 5))  # 7    **#output will be "7"**  
-     print(text.replace("Hello", "Hi", 1))  # "Hi World"  **#output will be "Hi World"**
+>text = "Hello World"  
+>print(text.lower())  # "hello world"  **#output will be  "hello world"**  
+>print(text.find("o", 5))  # 7    **#output will be "7"**  
+>print(text.replace("Hello", "Hi", 1))  # "Hi World"  **#output will be "Hi World"**
 
 
 
