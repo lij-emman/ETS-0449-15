@@ -110,3 +110,42 @@ This returns the **number of times** a string is mentioned or appears.
 ## str.index()
 
 The main difference between str.find() and str.index() is that str.index returns **ValueError** if the string does nto exist.
+
+
+# STR.STRIP(); STR.LSTRIP() AND STR.RSTRIP()
+
+## str.strip()
+
+This removes leading and trailing whitespace *(or specified characters)* from both sides of a string.
+
+## str.lstrip()
+
+It removes characters from the left side *(beginning)* of the string.
+
+## str.rstrip()
+
+This removes characters from the right side *(end)* of the string  **str.lstrip()**.
+
+
+
+# STR.ISALPHA(); STR.ISDIGIT(); STR.ISALNUM() AND STR.ISSPACE()
+
+These methods are used **to test the contents of a string**. That is, whether it's made of letters, digits, alphanumeric characters, or whitespace.  
+They give boolean values as outputs.
+
+## str.isalpha()
+
+This method checks if all characters in the string are **alphabetic**( letters, digits, alphanumeric characters, or whitespace.).
+
+## str.isdigit()
+
+This checks if all characters in the string are **digits**(0–9).
+
+## str.isalnum()
+
+ This checks if all characters are **alphanumeric** (letters or digits, no spaces or symbols).
+
+## str.isspace()
+
+Checks if all characters are **whitespace** (spaces, tabs \t, newlines \n, etc.)
+
