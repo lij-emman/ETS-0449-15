@@ -1,3 +1,4 @@
+# ***STRING METHODS***
 # GENERAL INFORMATION ON STRING METHOD  
 
      Python provides many built-in string methods to manipulate and analyze text. 
@@ -149,3 +150,38 @@ This checks if all characters in the string are **digits**(0–9).
 
 Checks if all characters are **whitespace** (spaces, tabs \t, newlines \n, etc.)
 
+# ***LIST***
+
+According to ChatGPT; A list in Python is a collection of ordered, mutable (changeable), and heterogeneous items (can be of different data types)and they are defined using square brackets [].
+>Ordered: Elements maintain the order you insert them.
+>Mutable: You can change, add, or remove items.
+>Allows duplicates: Same item can appear more than once.
+>Can hold any data type: int, str, float, even other lists (nested lists).
+
+# APPEND(); EXTEND() AND INSERT()
+
+## Append() 
+
+Adds a single element to the end of a given list.
+
+## Extend()
+
+Adds all elements of an iterable (like another list) to the end of the list.
+
+## Insert()
+
+Adds an element at the specified position. Hence these need their own parameters **insert(index, elements)**.
+
+# CLEAR(); POP() AND REMOVE()
+
+## Clear()
+
+This removes every single elements from the list making the output empy.
+
+## Pop()
+
+This removes the element at the specified position.
+
+## Remove()
+
+This removes the first item with the specified value.
