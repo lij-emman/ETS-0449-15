@@ -185,3 +185,35 @@ This removes the element at the specified position.
 ## Remove()
 
 This removes the first item with the specified value.
+
+# SORT() AND REVERSE()
+
+## Sort()
+
+This method sorts the list which have the same data type in ascending order.
+
+## Reverse()
+
+This method just flips the list as-is, no sorting involved.
+
+# COPY(); COUNT() AND INDEX()
+
+## Copy()
+
+This creates a copy of a list (a new list with the same elements).
+
+## Count()
+
+This returns the number of times a value appears in the list.
+
+## Index()
+
+This method returns the index of the first element with the specified value.
+
+
+
+# ***RESOURCES***
+
+## w3schools
+## chatgpt
+## code with mosh
